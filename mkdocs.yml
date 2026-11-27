@@ -1,0 +1,112 @@
+site_name: Deep Radio Docs
+site_description: Technical documentation for Deep Radio, the SDR-based deep learning platform for wireless communications by BaSig Wireless Laboratories
+site_author: BaSig Wireless Laboratories India Pvt. Ltd.
+site_url: https://deepradio.basigwireless.com/
+repo_url: https://basigwireless.com/products/deep-radio/
+repo_name: Deep Radio product page
+
+theme:
+  name: material
+  font:
+    text: Inter
+    code: Roboto Mono
+  logo: assets/images/basig_logo_white.png
+  favicon: assets/images/favicon-basig.png
+  icon:
+    repo: material/radio-tower
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+    - content.image.zoom
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra:
+  generator: false
+  social:
+    - icon: material/web
+      link: https://basigwireless.com
+      name: BaSig Wireless
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@BaSigWireless/videos
+      name: YouTube
+
+extra_css:
+  - stylesheets/modern.css
+  - stylesheets/docs.css
+extra_javascript:
+  - javascripts/modern.js
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting-started/index.md
+      - Editions: getting-started/editions.md
+  - Hardware:
+      - Specifications: hardware/specifications.md
+      - Capabilities: hardware/capabilities.md
+  - Installation: installation/index.md
+  - User Guide: user-guide/index.md
+  - Experiments:
+      - experiments/index.md
+      - "Over-the-Air QPSK Text Link": experiments/qpsk-text-link.md
+  - Developer Guide: developer/index.md
+  - Resources:
+      - Videos & Photos: resources/media.md
+      - Book: resources/book.md
+  - Support:
+      - Troubleshooting & FAQ: support/index.md
+      - Release Notes: support/release-notes.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+hooks:
+  - hooks/cachebust.py
+
+copyright: >
+  © 2026 BaSig Wireless Laboratories India Pvt. Ltd. All rights reserved.

@@ -1,0 +1,18 @@
+/* Deep Radio Docs additions on top of the BaSig theme (modern.css) */
+.md-header__title { visibility: visible !important; }
+.md-header__title .md-header__topic { visibility: visible !important; }
+.md-header__title .md-header__topic:first-child { font-weight: 700; }
+.md-typeset .video-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem; margin-top: 1rem; }
+.md-typeset .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 14px; box-shadow: var(--bw-shadow); }
+.md-typeset .video-container iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.md-typeset .bw-photos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.md-typeset .bw-photos img { width: 100%; height: 100%; object-fit: cover; border-radius: 14px !important; }
+.md-typeset .bw-photos figure { margin: 0; }
+.md-typeset .admonition.wip { border-left-color: #cc007e !important; }
+.md-typeset .wip > .admonition-title::before { background-color: #cc007e; -webkit-mask-image: var(--md-admonition-icon--note); mask-image: var(--md-admonition-icon--note); }
+.md-typeset img.bw-hero-img { display: block; width: 100%; height: auto; border-radius: 22px !important; box-shadow: var(--bw-shadow-hover); margin-bottom: 1.2rem; }
+@media (max-width: 720px) { .md-typeset .video-gallery, .md-typeset .bw-photos { grid-template-columns: 1fr; } }
+.md-typeset img.bw-hero-img { max-height: 340px; object-fit: cover; object-position: center 40%; }
+.md-typeset .bw-grid--talks { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 960px) { .md-typeset .bw-grid--talks { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .md-typeset .bw-grid--talks { grid-template-columns: 1fr; } }
