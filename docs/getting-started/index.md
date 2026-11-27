@@ -27,4 +27,4 @@ See [Editions](editions.md) for the differences between **Deep Radio** and **Dee
 
 1. Review the [specifications](../hardware/specifications.md).
 2. Set up the system using the [installation guide](../installation/index.md).
-3. Try the [experiments](../experiments/index.md), starting with the [over-the-air QPSK text link](../experiments/qpsk-text-link.md).
+3. Try the [experiments](../experiments/index.md), starting with [Experiment 1: the Embedded Python Block](../experiments/exp01-using-the-embedded-python-block-in-gnu-radio-companion.md), and read the [Introduction](introduction.md) first.

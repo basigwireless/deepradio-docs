@@ -64,6 +64,7 @@ nav:
   - Home: index.md
   - Getting Started:
       - getting-started/index.md
+      - Introduction: getting-started/introduction.md
       - Editions: getting-started/editions.md
   - Hardware:
       - Specifications: hardware/specifications.md
@@ -72,11 +73,27 @@ nav:
   - User Guide: user-guide/index.md
   - Experiments:
       - experiments/index.md
-      - "Over-the-Air QPSK Text Link": experiments/qpsk-text-link.md
+      - "1. Using the Embedded Python Block in GNU Radio Companion": experiments/exp01-using-the-embedded-python-block-in-gnu-radio-companion.md
+      - "2. Time-Frequency Analysis using Inspectrum": experiments/exp02-time-frequency-analysis-using-inspectrum.md
+      - "3. Spectrum Analysis using GQRX": experiments/exp03-spectrum-analysis-using-gqrx.md
+      - "4. FIR Filter Design and Analysis": experiments/exp04-fir-filter-design-and-analysis.md
+      - "5. FM Demodulation": experiments/exp05-fm-demodulation.md
+      - "6. Live Channel Prediction using Machine Learning": experiments/exp06-live-channel-prediction-using-machine-learning.md
+      - "7. ON/OFF Activity Prediction using Machine Learning": experiments/exp07-on-off-activity-prediction-using-machine-learning.md
+      - "8. QPSK Transmission, Reception and BER Analysis": experiments/exp08-qpsk-transmission-reception-and-ber-analysis.md
+      - "9. BPSK Transmission and Reception (Live Text)": experiments/exp09-bpsk-transmission-and-reception-live-text.md
+      - "10. AM Transmission and Reception": experiments/exp10-am-transmission-and-reception.md
+      - "11. FM Transmission and Reception": experiments/exp11-fm-transmission-and-reception.md
+      - "12. 5G Signal Generation and Transmission": experiments/exp12-5g-signal-generation-and-transmission.md
+      - "13. Over-the-Air 5G Traffic Prediction using Machine Learning": experiments/exp13-over-the-air-5g-traffic-prediction-using-machine-learning.md
+      - "14. Live Spectrum Monitoring using QSpectrumAnalyzer": experiments/exp14-live-spectrum-monitoring-using-qspectrumanalyzer.md
+      - "15. Modulation Classification using CNN": experiments/exp15-modulation-classification-using-cnn.md
   - Developer Guide: developer/index.md
   - Resources:
       - Videos & Photos: resources/media.md
       - Book: resources/book.md
+  - Reference:
+      - Abbreviations: reference/abbreviations.md
   - Support:
       - Troubleshooting & FAQ: support/index.md
       - Release Notes: support/release-notes.md
